@@ -16,6 +16,8 @@ class CheatActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCheatBinding
 
     private var answerIsTrue = false
+    private var isAnswerShown = false
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
