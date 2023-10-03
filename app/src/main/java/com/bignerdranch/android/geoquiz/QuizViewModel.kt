@@ -14,6 +14,7 @@ class QuizViewModel: ViewModel() {
         Question(R.string.question_americas, false),
         Question(R.string.question_asia, true))
 
+    // keep track of index for the sake of wasAnswered
     var currentIndex = 0
 
     val currentQuestionAnswer: Boolean get() = questionBank[currentIndex].answer
